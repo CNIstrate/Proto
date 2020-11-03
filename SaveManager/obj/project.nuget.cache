@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "IqThh5EepVMtPX2wHS2wXaghYxv/HK3Yf7PZkBTss9Go7DXRZ3pYfXP1y9DPWtZ4GE4qRWZFuxLv84YGDG0jIg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\istra\\source\\repos\\SaveManager\\SaveManager.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\istra\\.nuget\\packages\\metroframework\\1.2.0.3\\metroframework.1.2.0.3.nupkg.sha512",
+    "C:\\Users\\istra\\.nuget\\packages\\metroframework.design\\1.2.0.3\\metroframework.design.1.2.0.3.nupkg.sha512",
+    "C:\\Users\\istra\\.nuget\\packages\\metroframework.fonts\\1.2.0.3\\metroframework.fonts.1.2.0.3.nupkg.sha512",
+    "C:\\Users\\istra\\.nuget\\packages\\metroframework.runtime\\1.2.0.3\\metroframework.runtime.1.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
