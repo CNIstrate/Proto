@@ -1,0 +1,13 @@
+C:\Users\istra\source\repos\ConsoleSaveManager\bin\Release\ConsoleSaveManager.exe.config
+C:\Users\istra\source\repos\ConsoleSaveManager\bin\Release\ConsoleSaveManager.exe
+C:\Users\istra\source\repos\ConsoleSaveManager\bin\Release\ConsoleSaveManager.pdb
+C:\Users\istra\source\repos\ConsoleSaveManager\obj\Release\ConsoleSaveManager.MainMenu.resources
+C:\Users\istra\source\repos\ConsoleSaveManager\obj\Release\ConsoleSaveManager.MenuOptions.Xbox.XboxExportMenu.resources
+C:\Users\istra\source\repos\ConsoleSaveManager\obj\Release\ConsoleSaveManager.MenuOptions.Xbox.XboxImportMenu.resources
+C:\Users\istra\source\repos\ConsoleSaveManager\obj\Release\ConsoleSaveManager.Properties.Resources.resources
+C:\Users\istra\source\repos\ConsoleSaveManager\obj\Release\ConsoleSaveManager.XboxMenu.resources
+C:\Users\istra\source\repos\ConsoleSaveManager\obj\Release\ConsoleSaveManager.XboxSettings.resources
+C:\Users\istra\source\repos\ConsoleSaveManager\obj\Release\ConsoleSaveManager.csproj.GenerateResource.cache
+C:\Users\istra\source\repos\ConsoleSaveManager\obj\Release\ConsoleSaveManager.csproj.CoreCompileInputs.cache
+C:\Users\istra\source\repos\ConsoleSaveManager\obj\Release\ConsoleSaveManager.exe
+C:\Users\istra\source\repos\ConsoleSaveManager\obj\Release\ConsoleSaveManager.pdb

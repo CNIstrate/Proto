@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns:mx="http://schemas.microsoft.com/appx/2013/xbox/manifest" IgnorableNamespaces="mx" xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="GrumpyfaceStudios.UnleashtheLight" Publisher="CN=Grumpyface Studios" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>Unleash the Light</DisplayName>
+    <PublisherDisplayName>Grumpyface Studios</PublisherDisplayName>
+    <Logo>StoreLogo.png</Logo>
+    <Description>Unleash the Light</Description>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2</OSMinVersion>
+    <OSMaxVersionTested>6.2</OSMaxVersionTested>
+    <mx:ApplicationEnvironment>title</mx:ApplicationEnvironment>
+    <mx:OSName>era</mx:OSName>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="en-us" />
+    <Resource Language="fr-fr" />
+    <Resource Language="it-it" />
+    <Resource Language="es-es" />
+    <Resource Language="es-mx" />
+    <Resource Language="de-de" />
+    <Resource Language="pt-br" />
+    <Resource Language="ru-ru" />
+    <Resource Language="zh-cn" />
+    <Resource Language="ja-jp" />
+    <Resource Language="ko-kr" />
+    <Resource Language="tr-tr" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="UnleashtheLight.exe" EntryPoint="UnleashtheLight.app">
+      <VisualElements DisplayName="Unleash the Light" Logo="Logo.png" SmallLogo="SmallLogo.png" Description="Unleash the Light" ForegroundText="light" BackgroundColor="#464646">
+        <SplashScreen Image="SplashScreen.png" />
+        <DefaultTile WideLogo="WideLogo.png" />
+      </VisualElements>
+      <Extensions>
+        <mx:Extension Category="xbox.live">
+          <mx:XboxLive TitleId="79a6e08c" PrimaryServiceConfigId="00000000-0000-0000-0000-000079a6e08c" />
+        </mx:Extension>
+        <mx:Extension Category="xbox.system.resources">
+          <mx:XboxSystemResources>
+            <mx:GpuAvailability>fixed</mx:GpuAvailability>
+            <mx:TitleMemory ConsoleType="Xbox_One_X" Size="8" />
+          </mx:XboxSystemResources>
+        </mx:Extension>
+        <mx:Extension Category="windows.xbox.networking">
+          <mx:XboxNetworkingManifest>
+            <mx:SocketDescriptions>
+              <mx:SocketDescription Name="Unity Internal - Script Debugging and Profiler Broadcast Port" SecureIpProtocol="Udp" BoundPort="34997">
+                <mx:AllowedUsages>
+                  <mx:SecureDeviceSocketUsage Type="Initiate" />
+                  <mx:SecureDeviceSocketUsage Type="SendDebug" />
+                </mx:AllowedUsages>
+              </mx:SocketDescription>
+            </mx:SocketDescriptions>
+            <mx:SecureDeviceAssociationTemplates>
+              <mx:SecureDeviceAssociationTemplate Name="Unity Internal - Script Debugging and Profiler Broadcast Port" InitiatorSocketDescription="Unity Internal - Script Debugging and Profiler Broadcast Port" AcceptorSocketDescription="Unity Internal - Script Debugging and Profiler Broadcast Port" MultiplayerSessionRequirement="None">
+                <mx:AllowedUsages>
+                  <mx:SecureDeviceAssociationUsage Type="InitiateFromMicrosoftConsole" />
+                  <mx:SecureDeviceAssociationUsage Type="AcceptOnMicrosoftConsole" />
+                </mx:AllowedUsages>
+              </mx:SecureDeviceAssociationTemplate>
+            </mx:SecureDeviceAssociationTemplates>
+          </mx:XboxNetworkingManifest>
+        </mx:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities />
+  <Extensions>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>Microsoft.Xbox.Services.dll</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.Xbox.Services.XboxLiveContext" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Xbox.Services.Configuration" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Xbox.Services.Multiplayer.MultiplayerQualityOfServiceMeasurements" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Xbox.Services.Multiplayer.MultiplayerQuerySearchHandleRequest" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Xbox.Services.Multiplayer.MultiplayerSearchHandleRequest" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Xbox.Services.Multiplayer.MultiplayerSessionCapabilities" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Xbox.Services.Multiplayer.MultiplayerSessionReference" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Xbox.Services.Multiplayer.MultiplayerSession" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Xbox.Services.Multiplayer.Manager.MemberLeftEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Xbox.Services.Multiplayer.Manager.MultiplayerLobbySession" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Xbox.Services.Multiplayer.Manager.MultiplayerGameSession" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Xbox.Services.Multiplayer.Manager.MultiplayerMember" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Xbox.Services.Multiplayer.Manager.MultiplayerManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Xbox.Services.Multiplayer.Manager.MultiplayerEvent" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Xbox.Services.Multiplayer.Manager.FindMatchCompletedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Xbox.Services.Multiplayer.Manager.HostChangedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Xbox.Services.Multiplayer.Manager.JoinLobbyCompletedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Xbox.Services.Multiplayer.Manager.MemberJoinedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Xbox.Services.Multiplayer.Manager.MemberPropertyChangedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Xbox.Services.Multiplayer.Manager.PerformQosMeasurementsEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Xbox.Services.Multiplayer.Manager.SessionPropertyChangedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Xbox.Services.Multiplayer.Manager.TournamentGameSessionReadyEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Xbox.Services.Multiplayer.Manager.TournamentRegistrationStateChangedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Xbox.Services.Multiplayer.Manager.UserRemovedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Xbox.Services.Matchmaking.CreateMatchTicketResponse" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Xbox.Services.Matchmaking.HopperStatisticsResponse" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Xbox.Services.Matchmaking.MatchTicketDetailsResponse" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Xbox.Services.Presence.PresenceData" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Xbox.Services.TitleStorage.TitleStorageBlobMetadata" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Xbox.Services.UserStatistics.RequestedStatistics" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Xbox.Services.Social.SocialGroupConstants" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Xbox.Services.ServiceCallLoggingConfig" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Xbox.Services.Statistics.Manager.StatisticManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Xbox.Services.Leaderboard.LeaderboardQuery" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+  </Extensions>
+</Package>
