@@ -12,3 +12,7 @@ C:\Users\istra\source\repos\ConsoleSaveManager\obj\Debug\ConsoleSaveManager.Xbox
 C:\Users\istra\source\repos\ConsoleSaveManager\obj\Debug\ConsoleSaveManager.MenuOptions.Xbox.XboxExportMenu.resources
 C:\Users\istra\source\repos\ConsoleSaveManager\obj\Debug\ConsoleSaveManager.csprojAssemblyReference.cache
 C:\Users\istra\source\repos\ConsoleSaveManager\obj\Debug\ConsoleSaveManager.MenuOptions.Xbox.XboxImportMenu.resources
+C:\Users\istra\source\repos\ConsoleSaveManager\obj\Debug\ConsoleSaveManager.MenuOptions.NSW.NswMenu.resources
+C:\Users\istra\source\repos\ConsoleSaveManager\obj\Debug\ConsoleSaveManager.Settings.NswSettings.resources
+C:\Users\istra\source\repos\ConsoleSaveManager\obj\Debug\ConsoleSaveManager.Settings.SettingsMenu.resources
+C:\Users\istra\source\repos\ConsoleSaveManager\obj\Debug\ConsoleSaveManager.MenuOptions.NSW.NswImportMenu.resources

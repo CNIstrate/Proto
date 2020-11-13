@@ -70,5 +70,17 @@ namespace ConsoleSaveManager.Properties {
                 this["SCIDValue"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("none")]
+        public string NswExportedSavePath {
+            get {
+                return ((string)(this["NswExportedSavePath"]));
+            }
+            set {
+                this["NswExportedSavePath"] = value;
+            }
+        }
     }
 }

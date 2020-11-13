@@ -15,44 +15,68 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_31701DFE6B4D4DA480A24B6E83F87307"
+        "MsmKey" = "8:_1BC5DFB50AD44462985FE472D6C7B67F"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_942036E093004123A8111FCB0676C6DC"
+        "MsmKey" = "8:_2318C748D92E440BA80399570FAC0442"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_98F1000AB9C0439CBCDFBFFDBB700C36"
+        "MsmKey" = "8:_2DBB73E70E59471BB975CACD352F8EC5"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_A273E3A27AFA4EF580D82543C1924C46"
+        "MsmKey" = "8:_48153546F40240948F8FA774FD2A6B4A"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_F91F97868508497384EE1469C28F082D"
+        "MsmKey" = "8:_498C7C3DD6144ACA89390B3A958F987B"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_FEE60E9DECBC453693CA81D6E2B30213"
+        "MsmKey" = "8:_8B0CBD7590774B4F9464D75A9A36048C"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_8B539CF93C8D47EC89235ECA62F5CD3B"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B8D985F39A3847C482DC48C59474C5C4"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_CBF156264456400FB6C0EB6DF6F08185"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_F82F1D1C750D4274AF21784214509378"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_FEE60E9DECBC453693CA81D6E2B30213"
+        "OwnerKey" = "8:_B8D985F39A3847C482DC48C59474C5C4"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -73,6 +97,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -89,6 +121,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -118,7 +158,7 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_31701DFE6B4D4DA480A24B6E83F87307"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1BC5DFB50AD44462985FE472D6C7B67F"
             {
             "SourcePath" = "8:..\\ConsoleSaveManager\\bin\\Release\\ConsoleSaveManager.exe.config"
             "TargetName" = "8:ConsoleSaveManager.exe.config"
@@ -138,27 +178,7 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_942036E093004123A8111FCB0676C6DC"
-            {
-            "SourcePath" = "8:..\\ConsoleSaveManager\\bin\\Debug\\scripts\\xbexport.bat"
-            "TargetName" = "8:xbexport.bat"
-            "Tag" = "8:"
-            "Folder" = "8:_CEF69032B1794C3B82F0716CCD3E6E9C"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_98F1000AB9C0439CBCDFBFFDBB700C36"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2318C748D92E440BA80399570FAC0442"
             {
             "SourcePath" = "8:..\\ConsoleSaveManager\\bin\\Debug\\scripts\\xbimport.bat"
             "TargetName" = "8:xbimport.bat"
@@ -178,27 +198,7 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A273E3A27AFA4EF580D82543C1924C46"
-            {
-            "SourcePath" = "8:..\\ConsoleSaveManager\\bin\\Debug\\scripts\\xbdeletesave.bat"
-            "TargetName" = "8:xbdeletesave.bat"
-            "Tag" = "8:"
-            "Folder" = "8:_CEF69032B1794C3B82F0716CCD3E6E9C"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F91F97868508497384EE1469C28F082D"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2DBB73E70E59471BB975CACD352F8EC5"
             {
             "SourcePath" = "8:..\\ConsoleSaveManager\\bin\\Debug\\scripts\\xbconnect.bat"
             "TargetName" = "8:xbconnect.bat"
@@ -218,14 +218,94 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_FEE60E9DECBC453693CA81D6E2B30213"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_48153546F40240948F8FA774FD2A6B4A"
+            {
+            "SourcePath" = "8:..\\ConsoleSaveManager\\bin\\Release\\save.ico"
+            "TargetName" = "8:save.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_9E00146E8C56415982B928576B10F5D7"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_498C7C3DD6144ACA89390B3A958F987B"
+            {
+            "SourcePath" = "8:..\\ConsoleSaveManager\\bin\\Debug\\scripts\\nswimport.bat"
+            "TargetName" = "8:nswimport.bat"
+            "Tag" = "8:"
+            "Folder" = "8:_CEF69032B1794C3B82F0716CCD3E6E9C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8B0CBD7590774B4F9464D75A9A36048C"
+            {
+            "SourcePath" = "8:..\\ConsoleSaveManager\\bin\\Debug\\scripts\\xbdeletesave.bat"
+            "TargetName" = "8:xbdeletesave.bat"
+            "Tag" = "8:"
+            "Folder" = "8:_CEF69032B1794C3B82F0716CCD3E6E9C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8B539CF93C8D47EC89235ECA62F5CD3B"
+            {
+            "SourcePath" = "8:D:\\ChromeDownloads\\icon_2.ico"
+            "TargetName" = "8:icon_2.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_9E00146E8C56415982B928576B10F5D7"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_B8D985F39A3847C482DC48C59474C5C4"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:ConsoleSaveManager, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_FEE60E9DECBC453693CA81D6E2B30213"
+                    "_B8D985F39A3847C482DC48C59474C5C4"
                     {
                     "Name" = "8:ConsoleSaveManager.exe"
                     "Attributes" = "3:512"
@@ -235,6 +315,46 @@
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_9E00146E8C56415982B928576B10F5D7"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CBF156264456400FB6C0EB6DF6F08185"
+            {
+            "SourcePath" = "8:..\\ConsoleSaveManager\\bin\\Debug\\scripts\\xbexport.bat"
+            "TargetName" = "8:xbexport.bat"
+            "Tag" = "8:"
+            "Folder" = "8:_CEF69032B1794C3B82F0716CCD3E6E9C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F82F1D1C750D4274AF21784214509378"
+            {
+            "SourcePath" = "8:..\\ConsoleSaveManager\\bin\\Debug\\scripts\\nswexport.bat"
+            "TargetName" = "8:nswexport.bat"
+            "Tag" = "8:"
+            "Folder" = "8:_CEF69032B1794C3B82F0716CCD3E6E9C"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -503,30 +623,30 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_B4FCFD79FF494E6DB4E2D5B63A52B90D"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_1600270A07AA4890B03B356D2517C0EB"
             {
-            "Name" = "8:ConsoleSaveManager"
+            "Name" = "8:Console Save Manager"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_FEE60E9DECBC453693CA81D6E2B30213"
-            "Folder" = "8:_0FDE1D3ABEF24908ACED7644C62F540F"
+            "Target" = "8:_B8D985F39A3847C482DC48C59474C5C4"
+            "Folder" = "8:_01B04B84227246BFBB103B17F8BDBF85"
             "WorkingFolder" = "8:_9E00146E8C56415982B928576B10F5D7"
-            "Icon" = "8:"
+            "Icon" = "8:_8B539CF93C8D47EC89235ECA62F5CD3B"
             "Feature" = "8:"
             }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_E4984E40822E49EAA6D115322E21DA0F"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_6B70A8203C0F492AABC429761E0CFC8F"
             {
-            "Name" = "8:ConsoleSaveManager"
+            "Name" = "8:Console Save Manager"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_FEE60E9DECBC453693CA81D6E2B30213"
-            "Folder" = "8:_01B04B84227246BFBB103B17F8BDBF85"
+            "Target" = "8:_B8D985F39A3847C482DC48C59474C5C4"
+            "Folder" = "8:_0FDE1D3ABEF24908ACED7644C62F540F"
             "WorkingFolder" = "8:_9E00146E8C56415982B928576B10F5D7"
             "Icon" = "8:"
             "Feature" = "8:"

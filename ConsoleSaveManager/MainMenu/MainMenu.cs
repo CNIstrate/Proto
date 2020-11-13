@@ -1,4 +1,6 @@
-﻿using System;
+﻿using ConsoleSaveManager.MenuOptions.NSW;
+using ConsoleSaveManager.Settings;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -34,9 +36,6 @@ namespace ConsoleSaveManager
                 string text = Application.StartupPath;
                 File.WriteAllText(path, text);
             }
-
-            
-
         }
 
         private void XboxButton_Click(object sender, EventArgs e)
@@ -54,14 +53,16 @@ namespace ConsoleSaveManager
 
         private void NSWButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Feature yet to be implemented! :D");
+            NswMenu nswMenu = new NswMenu();
+            nswMenu.Show();
+            this.Hide();
             
         }
 
         private void ButtonSettings_Click(object sender, EventArgs e)
         {
-            XboxSettings xboxSettingsMenu = new XboxSettings();
-            xboxSettingsMenu.Show();
+            SettingsMenu settingsMenu = new SettingsMenu();
+            settingsMenu.Show();
         }
     }
 }

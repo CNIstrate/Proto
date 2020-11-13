@@ -15,7 +15,16 @@
         {
             if (disposing && (components != null))
             {
-                components.Dispose();
+                if (System.Windows.Forms.Application.MessageLoop)
+                {
+                    // WinForms app
+                    System.Windows.Forms.Application.Exit();
+                }
+                else
+                {
+                    // Console app
+                    System.Environment.Exit(1);
+                }
             }
             base.Dispose(disposing);
         }

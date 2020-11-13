@@ -11,3 +11,8 @@ C:\Users\istra\source\repos\ConsoleSaveManager\obj\Release\ConsoleSaveManager.cs
 C:\Users\istra\source\repos\ConsoleSaveManager\obj\Release\ConsoleSaveManager.csproj.CoreCompileInputs.cache
 C:\Users\istra\source\repos\ConsoleSaveManager\obj\Release\ConsoleSaveManager.exe
 C:\Users\istra\source\repos\ConsoleSaveManager\obj\Release\ConsoleSaveManager.pdb
+C:\Users\istra\source\repos\ConsoleSaveManager\obj\Release\ConsoleSaveManager.csprojAssemblyReference.cache
+C:\Users\istra\source\repos\ConsoleSaveManager\obj\Release\ConsoleSaveManager.MenuOptions.NSW.NswMenu.resources
+C:\Users\istra\source\repos\ConsoleSaveManager\obj\Release\ConsoleSaveManager.Settings.SettingsMenu.resources
+C:\Users\istra\source\repos\ConsoleSaveManager\obj\Release\ConsoleSaveManager.Settings.NswSettings.resources
+C:\Users\istra\source\repos\ConsoleSaveManager\obj\Release\ConsoleSaveManager.MenuOptions.NSW.NswImportMenu.resources

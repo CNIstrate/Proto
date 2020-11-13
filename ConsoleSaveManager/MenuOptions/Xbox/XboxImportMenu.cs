@@ -57,7 +57,6 @@ namespace ConsoleSaveManager.MenuOptions.Xbox
 
         private async void ImportSave()
         {
-            var properties = Properties.Settings.Default;
             try
             {
                 string batDir = string.Format(Application.StartupPath + @"\scripts\");
