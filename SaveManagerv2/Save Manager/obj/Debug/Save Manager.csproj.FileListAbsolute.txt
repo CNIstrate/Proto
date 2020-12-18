@@ -1,0 +1,34 @@
+C:\Users\mapostu\source\repos\SaveManager\Save Manager\bin\Debug\Save Manager.exe.config
+C:\Users\mapostu\source\repos\SaveManager\Save Manager\bin\Debug\Save Manager.exe
+C:\Users\mapostu\source\repos\SaveManager\Save Manager\bin\Debug\Save Manager.pdb
+C:\Users\mapostu\source\repos\SaveManager\Save Manager\bin\Debug\Microsoft.WindowsAPICodePack.dll
+C:\Users\mapostu\source\repos\SaveManager\Save Manager\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\mapostu\source\repos\SaveManager\Save Manager\bin\Debug\Microsoft.WindowsAPICodePack.xml
+C:\Users\mapostu\source\repos\SaveManager\Save Manager\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+C:\Users\mapostu\source\repos\SaveManager\Save Manager\obj\Debug\Save Manager.csprojAssemblyReference.cache
+C:\Users\mapostu\source\repos\SaveManager\Save Manager\obj\Debug\Save_Manager.MainForm.resources
+C:\Users\mapostu\source\repos\SaveManager\Save Manager\obj\Debug\Save_Manager.Properties.Resources.resources
+C:\Users\mapostu\source\repos\SaveManager\Save Manager\obj\Debug\Save_Manager.SettingsForms.SwitchSettingsForm.resources
+C:\Users\mapostu\source\repos\SaveManager\Save Manager\obj\Debug\Save Manager.csproj.GenerateResource.cache
+C:\Users\mapostu\source\repos\SaveManager\Save Manager\obj\Debug\Save Manager.csproj.CoreCompileInputs.cache
+C:\Users\mapostu\source\repos\SaveManager\Save Manager\obj\Debug\Save Manager.csproj.CopyComplete
+C:\Users\mapostu\source\repos\SaveManager\Save Manager\obj\Debug\Save Manager.exe
+C:\Users\mapostu\source\repos\SaveManager\Save Manager\obj\Debug\Save Manager.pdb
+C:\Users\mapostu\source\repos\SaveManager\Save Manager\obj\Debug\Save_Manager.SettingsForms.XboxOneSettingsForm.resources
+D:\GitHub\Repos\Proto\SaveManagerv2\Save Manager\bin\Debug\Save Manager.exe.config
+D:\GitHub\Repos\Proto\SaveManagerv2\Save Manager\bin\Debug\Save Manager.exe
+D:\GitHub\Repos\Proto\SaveManagerv2\Save Manager\bin\Debug\Save Manager.pdb
+D:\GitHub\Repos\Proto\SaveManagerv2\Save Manager\bin\Debug\Microsoft.WindowsAPICodePack.dll
+D:\GitHub\Repos\Proto\SaveManagerv2\Save Manager\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+D:\GitHub\Repos\Proto\SaveManagerv2\Save Manager\bin\Debug\Microsoft.WindowsAPICodePack.xml
+D:\GitHub\Repos\Proto\SaveManagerv2\Save Manager\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+D:\GitHub\Repos\Proto\SaveManagerv2\Save Manager\obj\Debug\Save Manager.csprojAssemblyReference.cache
+D:\GitHub\Repos\Proto\SaveManagerv2\Save Manager\obj\Debug\Save_Manager.MainForm.resources
+D:\GitHub\Repos\Proto\SaveManagerv2\Save Manager\obj\Debug\Save_Manager.Properties.Resources.resources
+D:\GitHub\Repos\Proto\SaveManagerv2\Save Manager\obj\Debug\Save_Manager.SettingsForms.SwitchSettingsForm.resources
+D:\GitHub\Repos\Proto\SaveManagerv2\Save Manager\obj\Debug\Save_Manager.SettingsForms.XboxOneSettingsForm.resources
+D:\GitHub\Repos\Proto\SaveManagerv2\Save Manager\obj\Debug\Save Manager.csproj.GenerateResource.cache
+D:\GitHub\Repos\Proto\SaveManagerv2\Save Manager\obj\Debug\Save Manager.csproj.CoreCompileInputs.cache
+D:\GitHub\Repos\Proto\SaveManagerv2\Save Manager\obj\Debug\Save Manager.csproj.CopyComplete
+D:\GitHub\Repos\Proto\SaveManagerv2\Save Manager\obj\Debug\Save Manager.exe
+D:\GitHub\Repos\Proto\SaveManagerv2\Save Manager\obj\Debug\Save Manager.pdb

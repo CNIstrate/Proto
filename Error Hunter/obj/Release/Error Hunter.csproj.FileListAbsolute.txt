@@ -1,0 +1,18 @@
+D:\GitHub\Repos\Proto\Error Hunter\bin\Release\Error Hunter.exe.config
+D:\GitHub\Repos\Proto\Error Hunter\bin\Release\Error Hunter.exe
+D:\GitHub\Repos\Proto\Error Hunter\bin\Release\Error Hunter.pdb
+D:\GitHub\Repos\Proto\Error Hunter\bin\Release\ClosedXML.dll
+D:\GitHub\Repos\Proto\Error Hunter\bin\Release\DocumentFormat.OpenXml.dll
+D:\GitHub\Repos\Proto\Error Hunter\bin\Release\ExcelNumberFormat.dll
+D:\GitHub\Repos\Proto\Error Hunter\bin\Release\System.IO.Packaging.dll
+D:\GitHub\Repos\Proto\Error Hunter\bin\Release\ClosedXML.pdb
+D:\GitHub\Repos\Proto\Error Hunter\bin\Release\ClosedXML.xml
+D:\GitHub\Repos\Proto\Error Hunter\bin\Release\DocumentFormat.OpenXml.xml
+D:\GitHub\Repos\Proto\Error Hunter\bin\Release\ExcelNumberFormat.xml
+D:\GitHub\Repos\Proto\Error Hunter\obj\Release\Error_Hunter.windowTitle.resources
+D:\GitHub\Repos\Proto\Error Hunter\obj\Release\Error_Hunter.Properties.Resources.resources
+D:\GitHub\Repos\Proto\Error Hunter\obj\Release\Error Hunter.csproj.GenerateResource.cache
+D:\GitHub\Repos\Proto\Error Hunter\obj\Release\Error Hunter.csproj.CoreCompileInputs.cache
+D:\GitHub\Repos\Proto\Error Hunter\obj\Release\Error Hunter.csproj.CopyComplete
+D:\GitHub\Repos\Proto\Error Hunter\obj\Release\Error Hunter.exe
+D:\GitHub\Repos\Proto\Error Hunter\obj\Release\Error Hunter.pdb
